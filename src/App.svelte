@@ -537,7 +537,10 @@
     Dans une étude publiée en juillet 2022, la BNB posait en titre d'un rapport, la question suivante: «La propriété est-elle à la portée de tous en Belgique ?» La réponse de l'institution financière était pessimiste et désignait comme première responsable, la hausse continue du prix des logements ces 50 dernières années. 
  </p>
 
- <div class="flourish-embed flourish-chart" data-src="visualisation/14705524"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ <div class="flourish-embed flourish-chart" style="height: 680px;" data-src="visualisation/14705524">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+ </div>
+
 
 	<p>
     La BNB qui dispose de données fiables depuis près de 50 ans pose un constat clair: «<cite>Depuis 1973, les prix des logements en Belgique ont été multipliés par un facteur 15. En prenant en compte l’inflation, <strong>les prix réels ont triplé</strong></cite>» , révèle l'instution financière. Les prix réels sont ceux qui prennent en compte le revenu disponible pour acquérir un bien. Alors que depuis 1990, les prix des logements ont augmenté entre 120 et 180% selon le type de biens, les salaires n’ont augmenté que de 27 % sur la même période.</p>
@@ -551,7 +554,7 @@
     Pour ceux qui suivent le sujet, même les moins attentifs, la nouvelle n’en est pas vraiment une. La pandémie de Covid-19 puis la guerre en Ukraine ont causé une forte inflation. Les banques centrales ont relevés leurs taux directeurs et ont fait flamber les taux hypothécaires par la même occasion. Chaque mois les chiffres battent de nouveaux records, atteignant des seuils que l’on avait pas vus depuis parfois 12 ans. 
   </p>
 
-  <div class="flourish-embed flourish-chart" data-src="visualisation/13615522"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  <div class="flourish-embed flourish-chart" style="height: 680px;" data-src="visualisation/13615522"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   
   <p>
     Les nombres de nouveaux crédits ont nettement diminué en un an, de l’ordre de 30% pour les crédits à la construction et jusqu’à 45% pour les crédits de rénovation. Les particuliers sont contraints de repousser, voire de tirer un trait sur leurs projets immobiliers. Ceux qui décident toutefois de s’y risquer voient leur demande d’apport augmenter de façon conséquente.	
@@ -621,7 +624,7 @@
   </p>
 
   <div class="conteneur">
-      <img src="./img/fanny.png" alt="Fanny">
+      <img src="url('./img/sara.jpg')" alt="Fanny Bugeja-Bloch">
   </div>
 
 
