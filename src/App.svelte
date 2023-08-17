@@ -327,7 +327,7 @@
 
 <Section theme="light">
   <p class="mb">
-    Devenir propriétaire de son logement : certains jeunes en rêvent, les autres ne se font plus d’illusion.  Et ce n’est pas le nouveau baromètre de la Fédération du Notariat (Fednot) qui devrait les rassurer. En 2023 <Em color="black">les acheteurs de moins de 30 ans</Em> ne représentaient que 27% des transactions, contre 30% en 2018. Selon la Banque nationale de Belgique (BNB), l'âge moyen de l'achat d’un premier logement est lui en constante augmentation depuis plusieurs années. Il est passé de 30 à 36 ans depuis la fin des années 1990. 
+    Devenir propriétaire de son logement : certains jeunes en rêvent, les autres ne se font plus d’illusion.  Et ce n’est pas le nouveau baromètre de la Fédération du Notariat (Fednot) qui devrait les rassurer. En 2023, <Em color="black">les acheteurs de moins de 30 ans</Em> ne représentaient que 27% des transactions, contre 30% en 2018. Selon la Banque nationale de Belgique (BNB), l'âge moyen de l'achat d’un premier logement est lui en constante augmentation depuis plusieurs années. Il est passé de 30 à 36 ans depuis la fin des années 1990. 
   </p>  
   <p class="mb">
     La baisse du nombre d'acheteurs jeunes et la hausse de l'âge du premier achat touchent toutes les régions et illustrent la réalité du marché immobilier belge, celle d’un accès à la propriété qui se déteriore pour les moins de 30 ans. 
@@ -346,7 +346,7 @@
 <Filler theme="lightblue" short={true} wide={true} center={false}>
   <p class="text-big">
     Pour mieux comprendre la situation, sélectionnez votre catégorie d’âge.
-    Cela va nous permettre de visualiser les différences entre les générations et les conséquences sur leur accès au logement. 
+    Cela nous permettra de visualiser les différences entre les générations et les conséquences sur leur accès au logement. 
   </p>
   <h2> Quel âge avez-vous?</h2>
 
@@ -454,7 +454,7 @@
     <section data-id="map01">
       <div class="col-medium">
         <p>
-          En utilisant le revenu moyen de chaque tranche d'âge, nous pouvons estimer la somme que vous pourriez emprunter selon les critères actuels de prêts actuellement appliqués par les banques belges. Ce montant est ensuite comparé aux prix de l’immobilier dans chaque commune.
+          En utilisant le revenu moyen de chaque tranche d'âge, nous pouvons estimer la somme que vous pourriez emprunter selon les critères de prêts actuellement appliqués par les banques belges. Ce montant est ensuite comparé aux prix de l’immobilier dans chaque commune.
         </p>
       </div>
     </section>
@@ -505,7 +505,7 @@
     <section data-id="map04">
       <div class="col-medium">
         <p>
-          A l’inverse, le porte-parole de Fednot Renaud Grégoire, indique que certaines communes comme Courcelles, Sambreville, La Louvière ou Binche connaissent un taux de pénétrations plus élevé. 
+          A l’inverse, le porte-parole de Fednot Renaud Grégoire, indique que certaines communes comme Courcelles, Sambreville, La Louvière ou Binche connaissent un taux de pénétration plus élevé. 
         </p>
       </div>
     </section>
@@ -549,7 +549,7 @@
   <h2 class="section-title">La fin des taux attractifs?</h2>
 
 	<p>
-    Pour ceux qui suivent le sujet, même les moins attentifs, la nouvelle n’en est pas vraiment une. La pandémie de Covid-19 puis la guerre en Ukraine ont causé une forte inflation. Les banques centrales ont relevés leurs taux directeurs et ont fait flamber les taux hypothécaires par la même occasion. Chaque mois les chiffres battent de nouveaux records, atteignant des seuils que l’on avait pas vus depuis parfois 12 ans. 
+    Pour ceux qui suivent le sujet, même les moins attentifs, la nouvelle n’en est pas vraiment une. La pandémie de Covid-19 puis la guerre en Ukraine ont causé une forte inflation. Les banques centrales ont relevé leurs taux directeurs et ont fait flamber les taux hypothécaires par la même occasion. Chaque mois les chiffres battent de nouveaux records, atteignant des seuils que l’on avait pas vus depuis parfois 12 ans. 
   </p>
 
   <iframe src='https://flo.uri.sh/visualisation/13615522/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/13615522/?utm_source=embed&utm_campaign=visualisation/13615522' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div> 
@@ -618,7 +618,7 @@
   <h2 class="section-title">Existe-t-il un «facteur jeunesse» ?</h2>
 
   <p class="mb">
-  Il est vrai que les banques se montrent de plus en plus frileuse à accorder des prêts aux jeunes ménages. Fanny Bugeja-Bloch, Maitresse de conférence à l’Université Paris-Nanterre et sociolgue des inégalités analyse cette tendance: «<cite>Les moins de 30 ans sont une population fragile. Ils présentent des signaux qui rendent difficile l’accès à un logement abordable. La précarisation sur le marché, la proportion forte de chômeurs et d’inactifs ou encore les salaires irréguliers sont autant d’éléments qui freinent les banques avant d’accorder un crédit.</cite>»
+  Il est vrai que les banques se montrent de plus en plus frileuses à accorder des prêts aux jeunes ménages. Fanny Bugeja-Bloch, Maitresse de conférence à l’Université Paris-Nanterre et sociologue des inégalités analyse cette tendance: «<cite>Les moins de 30 ans sont une population fragile. Ils présentent des signaux qui rendent difficile l’accès à un logement abordable. La précarisation sur le marché, la proportion forte de chômeurs et d’inactifs ou encore les salaires irréguliers sont autant d’éléments qui freinent les banques avant d’accorder un crédit.</cite>»
   </p>
 
   <div class="conteneur">
@@ -627,7 +627,7 @@
 
 
   <p class="mb">
-    Tous ces facteurs réunis finissent par plomber le capital dont dipose la jeunesse. Alors qu’en 1985, les moins de 25 ans consacraient au logement un budget deux fois plus élevés qu’un ménage de 75 ans, ce rapport était de 3 en 2015. Des efforts plus importants qui influencent le parcours de vie de ceux qui n’ont pas les ressources suffisantes, souvent héritées de leur famille. Et c'est en fin de vie que les inégalités se font alors ressentir, confirme Fanny Bugeja-Bloch: «<cite>Arrivés à l’âge de la retraite, les locataires ont une plus grande chance de connaitre la précarité car ils n’auront souvent disposé  d’aucun autre moyen de capitalisation pendant leurs années actives.</cite>»
+    Tous ces facteurs réunis finissent par plomber le capital dont dipose la jeunesse. Alors qu’en 1985, les moins de 25 ans consacraient au logement un budget deux fois plus élevé qu’un ménage de 75 ans, ce rapport était de 3 en 2015. Des efforts plus importants qui influencent le parcours de vie de ceux qui n’ont pas les ressources suffisantes, souvent héritées de leur famille. Et c'est en fin de vie que les inégalités se font alors ressentir, confirme Fanny Bugeja-Bloch: «<cite>Arrivés à l’âge de la retraite, les locataires ont une plus grande chance de connaitre la précarité car ils n’auront souvent disposé  d’aucun autre moyen de capitalisation pendant leurs années actives.</cite>»
   </p>
 
 </Section>
@@ -645,7 +645,7 @@
   </p>
 
   <p>
-    les perspectives d'une amélioration sont minces. Rien n'indique que les prix de l'immobilier devraient se maintenir à moyen termes. De leur côté, les taux devraient continuer leur ascension. La Banque centrale européenne vient de relever ses taux de 0,25 points et a annoncé poursuivre sa stratégie de lutte contre l'inflation pour quelques mois encore, entrainant avec elle l'ensemble des banques et éloignant toujours plus de jeunes foyers d’un accès à la propriété.
+    Les perspectives d'une amélioration sont minces. Rien n'indique que les prix de l'immobilier devraient se maintenir à moyen termes. De leur côté, les taux devraient continuer leur ascension. La Banque centrale européenne vient de relever ses taux de 0,25 points et a annoncé poursuivre sa stratégie de lutte contre l'inflation pour quelques mois encore, entrainant avec elle l'ensemble des banques et éloignant toujours plus de jeunes foyers d’un accès à la propriété.
   </p>
 
 </Section>
