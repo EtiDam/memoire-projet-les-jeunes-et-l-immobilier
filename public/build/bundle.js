@@ -60951,9 +60951,12 @@ var app = (function () {
     	let t3;
     	let p1;
     	let t5;
+    	let iframe0;
+    	let iframe0_src_value;
     	let div0;
-    	let script0;
-    	let script0_src_value;
+    	let a0;
+    	let img0;
+    	let img0_src_value;
     	let t6;
     	let p2;
     	let t7;
@@ -60971,9 +60974,12 @@ var app = (function () {
     	let t17;
     	let p4;
     	let t19;
+    	let iframe1;
+    	let iframe1_src_value;
     	let div1;
-    	let script1;
-    	let script1_src_value;
+    	let a1;
+    	let img1;
+    	let img1_src_value;
     	let t20;
     	let p5;
     	let current;
@@ -61008,8 +61014,10 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Dans une étude publiée en juillet 2022, la BNB posait en titre d'un rapport, la question suivante: «La propriété est-elle à la portée de tous en Belgique ?» La réponse de l'institution financière était pessimiste et désignait comme première responsable, la hausse continue du prix des logements ces 50 dernières années.";
     			t5 = space();
+    			iframe0 = element("iframe");
     			div0 = element("div");
-    			script0 = element("script");
+    			a0 = element("a");
+    			img0 = element("img");
     			t6 = space();
     			p2 = element("p");
     			t7 = text("La BNB qui dispose de données fiables depuis près de 50 ans pose un constat clair: «");
@@ -61031,8 +61039,10 @@ var app = (function () {
     			p4 = element("p");
     			p4.textContent = "Pour ceux qui suivent le sujet, même les moins attentifs, la nouvelle n’en est pas vraiment une. La pandémie de Covid-19 puis la guerre en Ukraine ont causé une forte inflation. Les banques centrales ont relevés leurs taux directeurs et ont fait flamber les taux hypothécaires par la même occasion. Chaque mois les chiffres battent de nouveaux records, atteignant des seuils que l’on avait pas vus depuis parfois 12 ans.";
     			t19 = space();
+    			iframe1 = element("iframe");
     			div1 = element("div");
-    			script1 = element("script");
+    			a1 = element("a");
+    			img1 = element("img");
     			t20 = space();
     			p5 = element("p");
     			p5.textContent = "Les nombres de nouveaux crédits ont nettement diminué en un an, de l’ordre de 30% pour les crédits à la construction et jusqu’à 45% pour les crédits de rénovation. Les particuliers sont contraints de repousser, voire de tirer un trait sur leurs projets immobiliers. Ceux qui décident toutefois de s’y risquer voient leur demande d’apport augmenter de façon conséquente.";
@@ -61040,29 +61050,67 @@ var app = (function () {
     			add_location(p0, file$w, 530, 2, 21117);
     			attr_dev(p1, "class", "mb");
     			add_location(p1, file$w, 535, 2, 21575);
-    			if (!src_url_equal(script0.src, script0_src_value = "https://public.flourish.studio/resources/embed.js")) attr_dev(script0, "src", script0_src_value);
-    			add_location(script0, file$w, 540, 2, 22031);
-    			attr_dev(div0, "class", "flourish-embed flourish-chart");
-    			set_style(div0, "height", "680px");
-    			attr_dev(div0, "data-src", "visualisation/14705524");
-    			add_location(div0, file$w, 539, 1, 21927);
-    			add_location(strong, file$w, 545, 214, 22339);
+    			if (!src_url_equal(iframe0.src, iframe0_src_value = "https://flo.uri.sh/visualisation/14705524/embed")) attr_dev(iframe0, "src", iframe0_src_value);
+    			attr_dev(iframe0, "title", "Interactive or visual content");
+    			attr_dev(iframe0, "class", "flourish-embed-iframe");
+    			attr_dev(iframe0, "frameborder", "0");
+    			attr_dev(iframe0, "scrolling", "no");
+    			set_style(iframe0, "width", "100%");
+    			set_style(iframe0, "height", "600px");
+    			attr_dev(iframe0, "sandbox", "allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation");
+    			add_location(iframe0, file$w, 539, 2, 21928);
+    			attr_dev(img0, "alt", "Made with Flourish");
+    			if (!src_url_equal(img0.src, img0_src_value = "https://public.flourish.studio/resources/made_with_flourish.svg")) attr_dev(img0, "src", img0_src_value);
+    			set_style(img0, "width", "105px", 1);
+    			set_style(img0, "height", "16px", 1);
+    			set_style(img0, "border", "none", 1);
+    			set_style(img0, "margin", "0", 1);
+    			add_location(img0, file$w, 539, 632, 22558);
+    			attr_dev(a0, "class", "flourish-credit");
+    			attr_dev(a0, "href", "https://public.flourish.studio/visualisation/14705524/?utm_source=embed&utm_campaign=visualisation/14705524");
+    			attr_dev(a0, "target", "_top");
+    			set_style(a0, "text-decoration", "none", 1);
+    			add_location(a0, file$w, 539, 437, 22363);
+    			set_style(div0, "width", "100%!");
+    			set_style(div0, "margin-top", "4px", 1);
+    			set_style(div0, "text-align", "right", 1);
+    			add_location(div0, file$w, 539, 359, 22285);
+    			add_location(strong, file$w, 543, 214, 22989);
     			attr_dev(cite0, "class", "svelte-1w87fjh");
-    			add_location(cite0, file$w, 545, 88, 22213);
-    			add_location(p2, file$w, 544, 1, 22120);
+    			add_location(cite0, file$w, 543, 88, 22863);
+    			add_location(p2, file$w, 542, 1, 22770);
     			attr_dev(cite1, "class", "svelte-1w87fjh");
-    			add_location(cite1, file$w, 547, 300, 22988);
-    			add_location(p3, file$w, 546, 1, 22683);
+    			add_location(cite1, file$w, 545, 300, 23638);
+    			add_location(p3, file$w, 544, 1, 23333);
     			attr_dev(h2, "class", "section-title");
-    			add_location(h2, file$w, 550, 2, 23301);
-    			add_location(p4, file$w, 552, 1, 23364);
-    			if (!src_url_equal(script1.src, script1_src_value = "https://public.flourish.studio/resources/embed.js")) attr_dev(script1, "src", script1_src_value);
-    			add_location(script1, file$w, 556, 102, 23908);
-    			attr_dev(div1, "class", "flourish-embed flourish-chart");
-    			set_style(div1, "height", "680px");
-    			attr_dev(div1, "data-src", "visualisation/13615522");
-    			add_location(div1, file$w, 556, 2, 23808);
-    			add_location(p5, file$w, 558, 2, 23995);
+    			add_location(h2, file$w, 548, 2, 23951);
+    			add_location(p4, file$w, 550, 1, 24014);
+    			if (!src_url_equal(iframe1.src, iframe1_src_value = "https://flo.uri.sh/visualisation/13615522/embed")) attr_dev(iframe1, "src", iframe1_src_value);
+    			attr_dev(iframe1, "title", "Interactive or visual content");
+    			attr_dev(iframe1, "class", "flourish-embed-iframe");
+    			attr_dev(iframe1, "frameborder", "0");
+    			attr_dev(iframe1, "scrolling", "no");
+    			set_style(iframe1, "width", "100%");
+    			set_style(iframe1, "height", "600px");
+    			attr_dev(iframe1, "sandbox", "allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation");
+    			add_location(iframe1, file$w, 554, 2, 24458);
+    			attr_dev(img1, "alt", "Made with Flourish");
+    			if (!src_url_equal(img1.src, img1_src_value = "https://public.flourish.studio/resources/made_with_flourish.svg")) attr_dev(img1, "src", img1_src_value);
+    			set_style(img1, "width", "105px", 1);
+    			set_style(img1, "height", "16px", 1);
+    			set_style(img1, "border", "none", 1);
+    			set_style(img1, "margin", "0", 1);
+    			add_location(img1, file$w, 554, 632, 25088);
+    			attr_dev(a1, "class", "flourish-credit");
+    			attr_dev(a1, "href", "https://public.flourish.studio/visualisation/13615522/?utm_source=embed&utm_campaign=visualisation/13615522");
+    			attr_dev(a1, "target", "_top");
+    			set_style(a1, "text-decoration", "none", 1);
+    			add_location(a1, file$w, 554, 437, 24893);
+    			set_style(div1, "width", "100%!");
+    			set_style(div1, "margin-top", "4px", 1);
+    			set_style(div1, "text-align", "right", 1);
+    			add_location(div1, file$w, 554, 359, 24815);
+    			add_location(p5, file$w, 556, 2, 25301);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p0, anchor);
@@ -61074,8 +61122,10 @@ var app = (function () {
     			insert_dev(target, t3, anchor);
     			insert_dev(target, p1, anchor);
     			insert_dev(target, t5, anchor);
+    			insert_dev(target, iframe0, anchor);
     			insert_dev(target, div0, anchor);
-    			append_dev(div0, script0);
+    			append_dev(div0, a0);
+    			append_dev(a0, img0);
     			insert_dev(target, t6, anchor);
     			insert_dev(target, p2, anchor);
     			append_dev(p2, t7);
@@ -61093,8 +61143,10 @@ var app = (function () {
     			insert_dev(target, t17, anchor);
     			insert_dev(target, p4, anchor);
     			insert_dev(target, t19, anchor);
+    			insert_dev(target, iframe1, anchor);
     			insert_dev(target, div1, anchor);
-    			append_dev(div1, script1);
+    			append_dev(div1, a1);
+    			append_dev(a1, img1);
     			insert_dev(target, t20, anchor);
     			insert_dev(target, p5, anchor);
     			current = true;
@@ -61133,6 +61185,7 @@ var app = (function () {
     			if (detaching) detach_dev(t3);
     			if (detaching) detach_dev(p1);
     			if (detaching) detach_dev(t5);
+    			if (detaching) detach_dev(iframe0);
     			if (detaching) detach_dev(div0);
     			if (detaching) detach_dev(t6);
     			if (detaching) detach_dev(p2);
@@ -61143,6 +61196,7 @@ var app = (function () {
     			if (detaching) detach_dev(t17);
     			if (detaching) detach_dev(p4);
     			if (detaching) detach_dev(t19);
+    			if (detaching) detach_dev(iframe1);
     			if (detaching) detach_dev(div1);
     			if (detaching) detach_dev(t20);
     			if (detaching) detach_dev(p5);
@@ -61160,7 +61214,7 @@ var app = (function () {
     	return block;
     }
 
-    // (570:2) 
+    // (568:2) 
     function create_background_slot(ctx) {
     	let div1;
     	let figure;
@@ -61172,15 +61226,15 @@ var app = (function () {
     			figure = element("figure");
     			div0 = element("div");
     			attr_dev(div0, "class", "col-wide height-full");
-    			add_location(div0, file$w, 571, 6, 24637);
+    			add_location(div0, file$w, 569, 6, 25943);
     			set_style(figure, "background-image", "url('./img/sara.jpg')");
     			set_style(figure, "background-position", "15% center");
     			set_style(figure, "background-repeat", "no-repeat");
     			set_style(figure, "background-size", "50% auto");
-    			add_location(figure, file$w, 570, 4, 24482);
+    			add_location(figure, file$w, 568, 4, 25788);
     			attr_dev(div1, "slot", "background");
     			attr_dev(div1, "class", "col-wide height-full");
-    			add_location(div1, file$w, 569, 2, 24424);
+    			add_location(div1, file$w, 567, 2, 25730);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -61197,14 +61251,14 @@ var app = (function () {
     		block,
     		id: create_background_slot.name,
     		type: "slot",
-    		source: "(570:2) ",
+    		source: "(568:2) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (576:2) 
+    // (574:2) 
     function create_foreground_slot(ctx) {
     	let div5;
     	let section0;
@@ -61282,36 +61336,36 @@ var app = (function () {
     			cite3.textContent = "Dans la même période, une amie s’est renseignée sur l’achat d’un appartement pour elle et son bébé. En tant que mère célibataire et sans aucun apport extérieur,  la banque lui a proposé 160 000 € de prêt maximum. Un appartement avec deux chambres à ce prix-là, ça n’existe pas.";
     			t18 = text(" » Pas un neuf, du moins.");
     			attr_dev(div0, "class", "attribution svelte-1w87fjh");
-    			add_location(div0, file$w, 581, 10, 24920);
+    			add_location(div0, file$w, 579, 10, 26226);
     			attr_dev(blockquote, "class", "citation-emphase svelte-1w87fjh");
-    			add_location(blockquote, file$w, 579, 8, 24812);
+    			add_location(blockquote, file$w, 577, 8, 26118);
     			attr_dev(div1, "class", "col-medium left-centered-text svelte-1w87fjh");
-    			add_location(div1, file$w, 578, 6, 24759);
-    			add_location(section0, file$w, 577, 4, 24742);
+    			add_location(div1, file$w, 576, 6, 26065);
+    			add_location(section0, file$w, 575, 4, 26048);
     			attr_dev(cite0, "class", "svelte-1w87fjh");
-    			add_location(cite0, file$w, 589, 11, 25114);
-    			add_location(p0, file$w, 588, 8, 25098);
+    			add_location(cite0, file$w, 587, 11, 26420);
+    			add_location(p0, file$w, 586, 8, 26404);
     			attr_dev(cite1, "class", "svelte-1w87fjh");
-    			add_location(cite1, file$w, 592, 12, 25417);
-    			add_location(p1, file$w, 591, 8, 25400);
+    			add_location(cite1, file$w, 590, 12, 26723);
+    			add_location(p1, file$w, 589, 8, 26706);
     			attr_dev(div2, "class", "col-medium left-centered-text svelte-1w87fjh");
-    			add_location(div2, file$w, 587, 6, 25045);
-    			add_location(section1, file$w, 586, 4, 25028);
-    			add_location(p2, file$w, 599, 8, 25962);
+    			add_location(div2, file$w, 585, 6, 26351);
+    			add_location(section1, file$w, 584, 4, 26334);
+    			add_location(p2, file$w, 597, 8, 27268);
     			attr_dev(cite2, "class", "svelte-1w87fjh");
-    			add_location(cite2, file$w, 603, 11, 26332);
-    			add_location(p3, file$w, 602, 8, 26316);
+    			add_location(cite2, file$w, 601, 11, 27638);
+    			add_location(p3, file$w, 600, 8, 27622);
     			attr_dev(div3, "class", "col-medium left-centered-text svelte-1w87fjh");
-    			add_location(div3, file$w, 598, 6, 25909);
-    			add_location(section2, file$w, 597, 4, 25892);
+    			add_location(div3, file$w, 596, 6, 27215);
+    			add_location(section2, file$w, 595, 4, 27198);
     			attr_dev(cite3, "class", "svelte-1w87fjh");
-    			add_location(cite3, file$w, 611, 113, 26897);
-    			add_location(p4, file$w, 610, 8, 26779);
+    			add_location(cite3, file$w, 609, 113, 28203);
+    			add_location(p4, file$w, 608, 8, 28085);
     			attr_dev(div4, "class", "col-medium left-centered-text svelte-1w87fjh");
-    			add_location(div4, file$w, 609, 6, 26726);
-    			add_location(section3, file$w, 608, 4, 26709);
+    			add_location(div4, file$w, 607, 6, 28032);
+    			add_location(section3, file$w, 606, 4, 28015);
     			attr_dev(div5, "slot", "foreground");
-    			add_location(div5, file$w, 575, 2, 24708);
+    			add_location(div5, file$w, 573, 2, 26014);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div5, anchor);
@@ -61358,14 +61412,14 @@ var app = (function () {
     		block,
     		id: create_foreground_slot.name,
     		type: "slot",
-    		source: "(576:2) ",
+    		source: "(574:2) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (619:0) <Section>
+    // (617:0) <Section>
     function create_default_slot_2$3(ctx) {
     	let h2;
     	let t1;
@@ -61403,20 +61457,20 @@ var app = (function () {
     			cite1.textContent = "Arrivés à l’âge de la retraite, les locataires ont une plus grande chance de connaitre la précarité car ils n’auront souvent disposé  d’aucun autre moyen de capitalisation pendant leurs années actives.";
     			t9 = text("»");
     			attr_dev(h2, "class", "section-title");
-    			add_location(h2, file$w, 619, 2, 27297);
+    			add_location(h2, file$w, 617, 2, 28603);
     			attr_dev(cite0, "class", "svelte-1w87fjh");
-    			add_location(cite0, file$w, 622, 235, 27620);
+    			add_location(cite0, file$w, 620, 235, 28926);
     			attr_dev(p0, "class", "mb");
-    			add_location(p0, file$w, 621, 2, 27369);
-    			if (!src_url_equal(img.src, img_src_value = "url('./img/sara.jpg')")) attr_dev(img, "src", img_src_value);
+    			add_location(p0, file$w, 619, 2, 28675);
+    			if (!src_url_equal(img.src, img_src_value = "url('./img/fanny.png')")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Fanny Bugeja-Bloch");
-    			add_location(img, file$w, 626, 6, 27998);
+    			add_location(img, file$w, 624, 6, 29304);
     			attr_dev(div, "class", "conteneur svelte-1w87fjh");
-    			add_location(div, file$w, 625, 2, 27967);
+    			add_location(div, file$w, 623, 2, 29273);
     			attr_dev(cite1, "class", "svelte-1w87fjh");
-    			add_location(cite1, file$w, 631, 481, 28571);
+    			add_location(cite1, file$w, 629, 481, 29878);
     			attr_dev(p1, "class", "mb");
-    			add_location(p1, file$w, 630, 2, 28074);
+    			add_location(p1, file$w, 628, 2, 29381);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -61450,14 +61504,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$3.name,
     		type: "slot",
-    		source: "(619:0) <Section>",
+    		source: "(617:0) <Section>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (637:0) <Section>
+    // (635:0) <Section>
     function create_default_slot_1$3(ctx) {
     	let h2;
     	let t1;
@@ -61487,15 +61541,15 @@ var app = (function () {
     			p2 = element("p");
     			p2.textContent = "les perspectives d'une amélioration sont minces. Rien n'indique que les prix de l'immobilier devraient se maintenir à moyen termes. De leur côté, les taux devraient continuer leur ascension. La Banque centrale européenne vient de relever ses taux de 0,25 points et a annoncé poursuivre sa stratégie de lutte contre l'inflation pour quelques mois encore, entrainant avec elle l'ensemble des banques et éloignant toujours plus de jeunes foyers d’un accès à la propriété.";
     			attr_dev(h2, "class", "section-title");
-    			add_location(h2, file$w, 637, 2, 28825);
+    			add_location(h2, file$w, 635, 2, 30132);
     			attr_dev(a, "href", "https://fonds.brussels/fr/a-propos/communiques-de-presse/le-fonds-met-en-place-de-nouvelles-conditions-dacces-pour-son-credit");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$w, 640, 321, 29230);
+    			add_location(a, file$w, 638, 321, 30537);
     			attr_dev(p0, "class", "mb");
-    			add_location(p0, file$w, 639, 2, 28893);
+    			add_location(p0, file$w, 637, 2, 30200);
     			attr_dev(p1, "class", "mb");
-    			add_location(p1, file$w, 644, 2, 29596);
-    			add_location(p2, file$w, 648, 2, 30026);
+    			add_location(p1, file$w, 642, 2, 30903);
+    			add_location(p2, file$w, 646, 2, 31333);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -61525,14 +61579,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$3.name,
     		type: "slot",
-    		source: "(637:0) <Section>",
+    		source: "(635:0) <Section>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (655:0) <Section>
+    // (653:0) <Section>
     function create_default_slot$3(ctx) {
     	let h3;
 
@@ -61540,7 +61594,7 @@ var app = (function () {
     		c: function create() {
     			h3 = element("h3");
     			h3.textContent = "Etienne Daman";
-    			add_location(h3, file$w, 655, 2, 30542);
+    			add_location(h3, file$w, 653, 2, 31849);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -61555,7 +61609,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$3.name,
     		type: "slot",
-    		source: "(655:0) <Section>",
+    		source: "(653:0) <Section>",
     		ctx
     	});
 
